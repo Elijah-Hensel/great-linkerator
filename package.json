@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prebuild": "npm run db:build",
-    "build": "npm run client:build && start",
-    "postinstall": "npm run client:build",
+    "build": "npm run client:build",
     "client:dev": "react-scripts start",
     "client:build": "react-scripts build",
     "server:dev": "nodemon index.js",

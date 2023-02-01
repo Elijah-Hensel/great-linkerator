@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prebuild": "npm run db:build",
-    "build": "npm run client:build",
+    "postinstall": "npm run client:build",
+    "build": "npm run db:build",
     "client:dev": "react-scripts start",
     "client:build": "react-scripts build",
     "server:dev": "nodemon index.js",
